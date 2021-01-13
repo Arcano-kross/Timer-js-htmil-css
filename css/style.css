@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: rgb(34, 107, 71);
+    --primary-color-darker: rgb(16, 38, 109);
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin:  0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.relogio{
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
+}
